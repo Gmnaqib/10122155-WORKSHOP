@@ -42,4 +42,4 @@ jobs:
           host: ${{ secrets.VPS_HOSTNAME }}
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_KEY }}
-          script: cd 10122155-workshop/; git pull origin main; pm2 restart 10122155_workshop;
+          script: cd 10122155-WORKSHOP/; git pull origin main; pm2 restart 10122155_workshop;
